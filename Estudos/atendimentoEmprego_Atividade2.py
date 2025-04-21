@@ -31,7 +31,7 @@ if fluenciaIngles.lower() == 's':
     fluenciaIngles = 's'
 elif fluenciaIngles.lower() == 'n':
     fluenciaIngles = 'n'
-idade = int(anoNascimento - 2025)
+idade = int(2025 - anoNascimento)
 
 print('='*50)
 if idade > 30 and formacao == 3 and tempoExperiencia > 8 and fluenciaIngles == 's':
@@ -42,7 +42,7 @@ elif idade > 25 and formacao == 3 and tempoExperiencia > 2 and fluenciaIngles ==
     print('Siga para atendimento até o 3º Andar e aguarde na sala 3A que será chamado pelo nome.')
 elif idade > 25 and formacao == 3 and fluenciaIngles == 'n':
     print('Siga para atendimento até o 2º andar e aguarde na sala 2B que será chamado pelo nome.')
-# else:
-#     print('Siga para atendimento até o 1º Andar e aguarde ser chamado pelo nome.')
+else:
+    print('Siga para atendimento até o 1º Andar e aguarde ser chamado pelo nome.')
 print('='*50)
 print('FIM DO PROGRAMA')
