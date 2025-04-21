@@ -57,7 +57,7 @@ while tentativas > 0 and not acertou:
 
     if palpite == backDoor:
         for i in range(30):  # Loop para 3 segundos
-            sys.stdout.write(".")
+            sys.stdout.write("..")
             sys.stdout.flush()
             time.sleep(.05)
         print('\n')
