@@ -1,0 +1,3 @@
+Salário de Jose: R$ 2543.88
+Salário de Claudio: R$ 2744.70
+Salário de Ana: R$ 2923.92
