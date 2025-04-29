@@ -12,7 +12,7 @@ while True:
     ano_nascimento = int(input(f"Por gentiliza {nome.title()}, digite o ano em que você nasceu: "))
 
     # formações que possui:
-    print("\nPor delicadeza, marque a alternativa correspondente ao seu grau de formação:")
+    print("\nPor gentileza, marque a alternativa correspondente ao seu grau de formação:")
     print("0 - Cursando ensino médio:")
     print("1 - Ensino Médio:")
     print("2 - Cursando ensino superior:")
